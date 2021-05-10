@@ -5,17 +5,17 @@ function carregar() {
     var hora = data.getHours()
     
     if (hora < 12 ){
-        imagem.src = '../hora do dia/fotomanha.jpg'
+        imagem.src = '/imagens/fotomanha.jpg'
         document.body.style.background = '#e2cd9f'
         msg.innerHTML = `Agora são ${hora} Horas, Bom dia!`
     }
     else if (hora < 19) {
-        imagem.src = '../hora do dia/fototarde.jpg'
+        imagem.src = '/imagens/fototarde.jpg'
         document.body.style.background = '#b9846f'
         msg.innerHTML = `Agora são ${hora} Horas, Boa Tarde!`
     }
     else if (hora < 24) {
-        imagem.src = '../hora do dia/fotonoite.jpg'
+        imagem.src = '/imagens/fotonoite.jpg'
         document.body.style.background = '#515154'
         msg.innerHTML = `Agora são ${hora} Horas, Boa noite!`
     }
